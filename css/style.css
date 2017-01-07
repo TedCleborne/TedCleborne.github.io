@@ -33,6 +33,10 @@
     position: relative;
 }
 
+.title-desc-image{
+    text-align: center;
+}
+
 #desktopNav{
     display: table-cell;
     width: 70%;
@@ -59,9 +63,10 @@
     z-index: inherit;
 }
 
-a, a img {
-    text-decoration: none;
+a {
+    text-decoration: none;    
 }
+
 .main-nav ul li a span{
     color: #1c1c1c;
     font-family: "brandon-grotesque";
@@ -71,6 +76,103 @@ a, a img {
     letter-spacing: 3px;
     font-weight: 400;
     font-style: normal;
-    line-height: 2em;
+    line-height: 2em;    
+}
+
+.main-nav ul li a span:hover {
+    color:#008080;
+}
+
+.title-desc-image{
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.text-align-center{
+    text-align: center;
+}
+
+h1 {
+    display: block;
+    font-family: "brandon-grotesque";
+    font-size: 32px;
+    line-height: 1.2em;
+    text-transform: none;
+    text-decoration: none;
+    letter-spacing: 0px;
+    font-weight: 400;
+    font-style: normal;
+    margin: 1em 0.5em;
+    color: #1c1c1c;
+    margin-top: 0;
+    
+}
+
+h2 {
+    font-family: "brandon-grotesque";
+    font-size: 16px;
+    line-height: 1.6em;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-weight: 400;
+    font-style: normal;
+    margin: 1em 0.5em;
+    color: #1c1c1c;
+}
+
+h3{
+    font-family: "Foundry Origin W01 Bk",Georgia, serif;
+    color: #37383b;
+    letter-spacing: 0.2em;
+    font-size:30px;
+    text-transform: uppercase;
+    font-style: normal;
+    margin: 0;
+}
+
+h4 {
+    font-family: "Foundry Origin W01 Bk",Georgia, serif;
+    color: #37383b;
+    letter-spacing: 0.1em;
+    font-size: 11px;
+    text-transform: uppercase;
+    font-style: normal;
+    margin: 0;
+}
+
+h5{
+    font-family: "BellGothicBTW01-Roman", Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    text-transform: uppercase;
+    line-height: 1.8em;
+    letter-spacing: 0.1em;
+    
+}
+
+.sqs-block {
+    position: relative;
+    text-align: center;
+    
+}
+
+.sqs-block-button-element--small {
+    border-width: 2px;
+    border-style: solid;
+    padding: 13px 26px;
+    font-size: 12px;
+    font-family: "brandon-grotesque";
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 500;
+    font-style: normal;
+    border-color: #272727;
+    color: black;
+}
+
+p {
     
 }
