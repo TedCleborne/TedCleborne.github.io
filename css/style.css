@@ -15,7 +15,7 @@
     box-sizing: border-box;
 }
 
-.site-title{
+h1.site-title{
     font-family: "brandon-grotesque";
     font-size: 18px;
     text-transform: uppercase;
@@ -31,12 +31,18 @@
     line-height: 1em;
     z-index: 8002;
     position: relative;
+    color: black;
 }
+
+.site-title a {
+    color:black;
+}
+
 
 .title-desc-image{
     text-align: center;
 }
-
+ 
 #desktopNav{
     display: table-cell;
     width: 70%;
@@ -67,6 +73,11 @@ a {
     text-decoration: none;    
 }
 
+span#top hover {
+    text-decoration: none;
+}
+
+
 .main-nav ul li a span{
     color: #1c1c1c;
     font-family: "brandon-grotesque";
@@ -95,7 +106,115 @@ a {
     text-align: center;
 }
 
-h1 {
+h1.our-story-header{
+    margin-top: 0;
+    text-align: center;
+    font-family: "brandon-grotesque";
+    font-size: 32px;
+    line-height: 1.2em;
+    text-transform: none;
+    text-decoration: none;
+    letter-spacing: 0px;
+    font-weight: 400;
+    font-style: normal;
+    margin: 1em 0 .5em;
+    color: #1c1c1c;
+}
+
+h2.our-story-text{
+    margin: 0;
+    padding: 0;
+    padding: 0;
+    font-family: "ff-meta-serif-web-pro";
+    font-size: 16px;
+    text-align: center;
+    font-weight: 500;
+    color: #3A4049;
+    line-height: 1.68em;
+}
+
+h1.he-proposed-header{
+    margin-top: 0;
+    text-align: center;
+    font-family: "brandon-grotesque";
+    font-size: 32px;
+    line-height: 1.2em;
+    text-transform: none;
+    text-decoration: none;
+    letter-spacing: 0px;
+    font-weight: 400;
+    font-style: normal;
+    margin: 1em 0 .5em;
+    color: #1c1c1c;
+}
+
+h2.he-proposed-text{
+    margin: 0;
+    padding: 0;
+    padding: 0;
+    font-family: "ff-meta-serif-web-pro";
+    font-size: 16px;
+    text-align: center;
+    font-weight: 500;
+    color: #3A4049;
+    line-height: 1.68em;
+}
+
+h1.add-to-our-story-header{
+    margin-top: 0;
+    text-align: center;
+    font-family: "brandon-grotesque";
+    font-size: 32px;
+    line-height: 1.2em;
+    text-transform: none;
+    text-decoration: none;
+    letter-spacing: 0px;
+    font-weight: 400;
+    font-style: normal;
+    margin: 1em 0 .5em;
+    color: #1c1c1c;
+}
+
+h2.add-to-our-story-text{
+    margin: 0;
+    padding: 0;
+    padding: 0;
+    font-family: "ff-meta-serif-web-pro";
+    font-size: 16px;
+    text-align: center;
+    font-weight: 500;
+    color: #3A4049;
+    line-height: 1.68em;
+}
+
+h1.registry-header{
+    margin-top: 0;
+    text-align: center;
+    font-family: "brandon-grotesque";
+    font-size: 32px;
+    line-height: 1.2em;
+    text-transform: none;
+    text-decoration: none;
+    letter-spacing: 0px;
+    font-weight: 400;
+    font-style: normal;
+    margin: 1em 0 .5em;
+    color: #1c1c1c;
+}
+
+h2.registry-text{
+    margin: 0;
+    padding: 0;
+    padding: 0;
+    font-family: "ff-meta-serif-web-pro";
+    font-size: 16px;
+    text-align: center;
+    font-weight: 500;
+    color: #3A4049;
+    line-height: 1.68em;
+}
+
+h1.when-where-text {
     display: block;
     font-family: "brandon-grotesque";
     font-size: 32px;
@@ -108,10 +227,11 @@ h1 {
     margin: 1em 0.5em;
     color: #1c1c1c;
     margin-top: 0;
+    text-align: center;
     
 }
 
-h2 {
+h2.datetime {
     font-family: "brandon-grotesque";
     font-size: 16px;
     line-height: 1.6em;
@@ -122,9 +242,10 @@ h2 {
     font-style: normal;
     margin: 1em 0.5em;
     color: #1c1c1c;
+    text-align: center;
 }
 
-h3{
+h3.bluehill {
     font-family: "Foundry Origin W01 Bk",Georgia, serif;
     color: #37383b;
     letter-spacing: 0.2em;
@@ -132,9 +253,10 @@ h3{
     text-transform: uppercase;
     font-style: normal;
     margin: 0;
+    text-align: center;
 }
 
-h4 {
+h4.stonebarns {
     font-family: "Foundry Origin W01 Bk",Georgia, serif;
     color: #37383b;
     letter-spacing: 0.1em;
@@ -142,14 +264,16 @@ h4 {
     text-transform: uppercase;
     font-style: normal;
     margin: 0;
+    text-align: center;
 }
 
-h5{
+h5.bluehilladdress {
     font-family: "BellGothicBTW01-Roman", Arial, Helvetica, sans-serif;
     font-size: 13px;
     text-transform: uppercase;
     line-height: 1.8em;
     letter-spacing: 0.1em;
+    text-align: center;
     
 }
 
@@ -175,4 +299,104 @@ h5{
 
 p {
     
+}
+
+.wedding-party-text{
+    text-align: center;
+    
+}
+
+.content-spacer{
+    height: 50px;
+}
+
+.wedding-party {
+    width: 100%;
+    background-color: white;
+    position: relative;
+    z-index: 50;
+}
+
+.meet-the-team{
+    text-transform: uppercase;
+    font-family: brandon-grot-w01-light,sans-serif;
+    font-size: 48px;
+}
+
+.team-player-name {
+    font-weight: bold;
+    font-size: 17px;
+    font-family: avenir-lt-w01_85-heavy1475544,sans-serif;
+    text-align: center;
+    margin: 10px auto;
+}
+
+.team-player-info{
+    margin: 0;
+    padding: 0;
+    padding: 0;
+    font-family: brandon-grot-w01-light, sans-serif;
+    font-size: 12px;
+    text-align: center;
+    text-transform: none;
+    color: #3A4049;
+}
+
+.content-inner{
+    padding: 100px 8%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.groomsmen{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.bridesmaids{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.ringbearers{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.registry{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.groomsmen-text{
+    font-family: brandon-grot-w01-light,sans-serif;
+    font-size:24px;
+    text-align: center;
+}
+
+.bridesmaids-text{
+    font-family: brandon-grot-w01-light,sans-serif;
+    font-size:24px;
+    text-align: center;
+}
+.ringbearers-text{
+    font-family: brandon-grot-w01-light,sans-serif;
+    font-size:24px;
+    text-align: center;
+}
+
+.bed-bath-and-beyond-image {
+    text-align: center;
+    background: url("https://d7olld39l2hok.cloudfront.net/logo/4214388.png") no-repeat;
+}
+
+
+#footer {
+    width: 100%;
+    position: relative;
+    margin-top: 50px;
 }
