@@ -6,7 +6,6 @@ ul.topnav {
   padding: 0;
   overflow: hidden;
   background-color: #333;
-  height: 10vh;
 }
 
 ul.topnav li {float: left;}
