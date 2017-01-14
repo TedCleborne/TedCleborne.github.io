@@ -6,52 +6,44 @@
     </head>
         <meta charset="utf-8" />
         <link href="http://s3.amazonaws.com/codecademy-content/courses/ltp2/css/bootstrap.min.css" rel="stylesheet">
-        <link rel="stylesheet" href="css/style.css" type="text/css"/>
-     
-        
+        <link rel="stylesheet" href="css/style_menu_header.css" type="text/css"/>
+        <link rel="stylesheet" href="css/style_main.css" type="text/css"/>
 
     <body>
-        <header class="header">        
-                <h1 class="site-title">
-                    <a href="index.html" style="text-decoration : none"><span id="top" >Melissa & Ted</span></a>
-                </h1>
-                <input class="menu-btn" type="checkbox" id="menu-btn" />
-                <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
-                <ul class="menu">
-                    <li><a href="ourstory.html">Our Story</a></li>
-                    <li><a href="whenandwhere.html">When and Where</a></li>
-                    <li><a href="weddingparty.html">Wedding Party</a></li>
-                    <li><a href="registry.html">Registry</a></li>
-                    <li><a href="addtoourstory.html">Details</a></li>
-                </ul>
+       
+           
+            <ul class="topnav" id="myTopnav">
+                <li><a class="active" href="index.html">Melissa & Ted</a></li>
+                <li><a href="ourstory.html">Our Story</a></li>
+                <li><a href="whenandwhere.html">When and Where</a></li>
+                <li><a href="weddingparty.html">Wedding Party</a></li>
+                <li><a href="registry.html">Registry</a></li>
+                <li><a href="moreinfo.html">More Info</a></li>
+                <li class="icon">
+                    <a href="javascript:void(0);" style="font-size:15px;" onclick="myFunction()">☰</a>
+                </li>
+            </ul>
+          
+            <script> 
+            function myFunction() {
+                var x = document.getElementById("myTopnav");
+                if (x.className === "topnav") {
+                    x.className += " responsive";
+                } else {
+                    x.className = "topnav";
+                }
+            }
+            </script>
+       
+       
         
-        </header>
-        <div class="content-inner-main">
-            <div class="title-desc-image">   
-                
-            </div>
-        <div class="announcement">
-            <div class="row">
-                <div class="col-xs-12">
+            <div class="content-inner-main">
+                <div class="title-desc-image"></div>
+                <div class="announcement">
                     <h1 class="announcement-text">Are getting married</h1>
                 </div>
             </div>
-        </div>
         
-        <div class="content-spacer-border"></div>
-            <div class="main-footer">  
-                <div class="row">
-                    <div class="col-xs-4">
-                        <h1 class="announcement-date">Sep</h1>
-                    </div>
-                    <div id="banner" class="col-xs-4">
-                        <img src="img/banner.jpeg" width="100%"/>
-                    </div>
-                    <div class="col-xs-4">
-                        <h1 class="announcement-date">2017</h1>
-                    </div>            
-                </div>
-            </div>
-        </div>
     </body>
 </html>
+
