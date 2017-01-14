@@ -5,51 +5,32 @@
     </head>
         <meta charset="utf-8" />
         <link href="http://s3.amazonaws.com/codecademy-content/courses/ltp2/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/style_menu_header.css" type="text/css"/>
         <link rel="stylesheet" href="css/style.css" type="text/css"/>
 
     <body>
-        <header id="header">
-            <div class="title-nav-wrapper">
-                <h1 class="site-title">
-                    <a href="index.html" style="text-decoration : none">
-                    <span id="top" >Melissa & Ted</span>
-                    </a>
-                </h1>
-                <div id="desktopNav">
-                    <nav class="main-nav">
-                        <div class="nav-wrapper">
-                            <ul class="cf">
-                                <li class="index collection">
-                                    <a href="ourstory.html">
-                                        <span>Our Story</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="whenandwhere.html">
-                                        <span>When and Where</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="weddingparty.html">
-                                        <span>Wedding Party</span>
-                                    </a>                                    
-                                </li>
-                                <li>
-                                    <a href="registry.html">
-                                        <span>Registry</span>
-                                    </a>                                    
-                                </li>
-                                <li>
-                                    <a href="/">
-                                        <span>Add to our Story</span>
-                                    </a>                                    
-                                </li>
-                            </ul>
-                        </div>
-                    </nav>
-                </div>
-            </div>
-        </header>             
+             <ul class="topnav" id="myTopnav">
+                <li><a class="active" href="index.html">Melissa & Ted</a></li>
+                <li><a href="ourstory.html">Our Story</a></li>
+                <li><a href="whenandwhere.html">When and Where</a></li>
+                <li><a href="weddingparty.html">Wedding Party</a></li>
+                <li><a href="registry.html">Registry</a></li>
+                <li><a href="moreinfo.html">More Info</a></li>
+                <li class="icon">
+                    <a href="javascript:void(0);" style="font-size:15px;" onclick="myFunction()">☰</a>
+                </li>
+            </ul>
+          
+            <script> 
+            function myFunction() {
+                var x = document.getElementById("myTopnav");
+                if (x.className === "topnav") {
+                    x.className += " responsive";
+                } else {
+                    x.className = "topnav";
+                }
+            }
+            </script>             
         <div class="add-to-our-story">
             <div class="content-inner">
                 <div class="row">
