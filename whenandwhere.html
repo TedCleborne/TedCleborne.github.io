@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Melissa and Ted</title>
+    </head>
+        <meta charset="utf-8" />
+        <link href="http://s3.amazonaws.com/codecademy-content/courses/ltp2/css/bootstrap.min.css" rel="stylesheet">
+       
+        <link rel="stylesheet" href="css/style_menu_header.css" type="text/css"/>
+        <link rel="stylesheet" href="css/style_when_and_where.css" type="text/css"/>
+
+    <body>
+           
+            <ul class="topnav" id="myTopnav">
+                <li><a class="active" href="home.html">Melissa & Ted</a></li>
+                <li><a href="ourstory.html">Our Story</a></li>
+                <li><a href="whenandwhere.html">When and Where</a></li>
+                <li><a href="weddingparty.html">Wedding Party</a></li>
+                <li><a href="registry.html">Registry</a></li>
+                <li><a href="moreinfo.html">More Info</a></li>
+                <li class="icon">
+                    <a href="javascript:void(0);" style="font-size:15px;" onclick="myFunction()">☰</a>
+                </li>
+            </ul>
+          
+            <script> 
+            function myFunction() {
+                var x = document.getElementById("myTopnav");
+                if (x.className === "topnav") {
+                    x.className += " responsive";
+                } else {
+                    x.className = "topnav";
+                }
+            }
+            </script>
+            
+        <div class="when-and-where">
+            <h1 class="when-where-text">Ceremony and Reception</h1>
+            <h2 class="datetime">
+                Friday, September 15, 2017
+                <br>
+                6:00 - 12:00 PM
+            </h2>
+            <h3 class="bluehill">
+                Blue Hill
+            </h3>
+            <h4 class="stonebarns">
+                At Stone Barns
+            </h4>
+                     
+            <h5 class="bluehilladdress">
+                630 Bedford Rd.
+                <br>
+                Pocantico Hills, New York 10591
+            </h5>
+              <div class="content-spacer20"></div> 
+            <div class="sqs-block button-block sqs-block button" data-block-type="53">
+                <div class="sqs-block-content" >
+                    <div class="sqs-block-button-container--center">
+                        <a href="https://www.google.com/maps/place/Blue+Hill+at+Stone+Barns/" class="sqs-block-button-element--small sqs-block-button-element" target="_blank">View Map</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="accomodations">
+            <h1 class="accomodations-text">Accomodations</h1>
+            <h2 class="group-rate">
+                A group rate is available at the following hotel.
+                <br>
+                Just mention our names.
+            </h2>
+            <p class="accomodations-address">
+                <em>DoubleTree by Hilton Hotel Tarrytown</em>
+                <br>
+                455 South Broadway
+                <br>
+                Tarrytown, NY 10591
+            </p>
+            <br>
+            <div class="sqs-block button-block sqs-block button" data-block-type="53">
+                <div class="sqs-block-content" >
+                    <div class="sqs-block-button-container--center">
+                        <a href="http://doubletree3.hilton.com/en/hotels/new-york/doubletree-by-hilton-hotel-tarrytown-TERHIDT/index.html" class="sqs-waw-block-button-element--small sqs-block-button-element" target="_blank">View</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,144 @@
+
+* {
+    box-sizing: border-box;
+}
+
+@-ms-viewport{
+    width: extend-to-zoom;
+    zoom: 1.0;
+}
+
+.when-and-where {
+    position: relative;
+    background: url(../img/bluehillside.jpeg);
+    width:100%;
+    height: 91vh;
+    background-size: 100% 100%;
+    opacity: 1.0;
+}
+
+h1.when-where-text {
+    font-family: "Foundry Origin W01 Bk",Georgia, serif;
+    color: #37383b;
+    letter-spacing: 0.2em;
+    font-size:36px;
+    text-transform: uppercase;
+    font-style: normal;
+    margin: 0;
+    text-align: center;
+    padding-top: 10px;
+    
+}
+
+h2.datetime {
+    font-family: "brandon-grotesque";
+    font-size: 16px;
+    line-height: 1.6em;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-weight: 400;
+    font-style: normal;
+    margin: 1em 0.5em;
+    color: #1c1c1c;
+    text-align: center;
+}
+
+h3.bluehill {
+    font-family: "Foundry Origin W01 Bk",Georgia, serif;
+    color: #37383b;
+    letter-spacing: 0.2em;
+    font-size:30px;
+    text-transform: uppercase;
+    font-style: normal;
+    margin: 0;
+    text-align: center;
+}
+
+h4.stonebarns {
+    font-family: "Foundry Origin W01 Bk",Georgia, serif;
+    color: #37383b;
+    letter-spacing: 0.1em;
+    font-size: 11px;
+    text-transform: uppercase;
+    font-style: normal;
+    margin: 0;
+    text-align: center;
+}
+
+h5.bluehilladdress {
+    font-family: "BellGothicBTW01-Roman", Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    text-transform: uppercase;
+    line-height: 1.8em;
+    letter-spacing: 0.1em;
+    text-align: center;
+    
+}
+
+
+.accomodations {
+    position: relative;
+    background: url(../img/hotel.jpg);
+    width:100%;
+    height: 91vh;
+    background-size: 100% 100%;
+    opacity: 1.0;
+}
+
+h1.accomodations-text{
+    color:white;
+    font-family: "Foundry Origin W01 Bk",Georgia, serif;
+    letter-spacing: 0.2em;
+    font-size:36px;
+    text-transform: uppercase;
+    font-style: normal;
+    margin: 0;
+    text-align: center;
+    padding-top: 10px;
+}
+
+h2.group-rate{
+    color: white;
+    text-align: center;
+    
+}
+
+.accomodations-address{
+    color: white;
+    text-align: center;
+}
+
+.sqs-block {
+    position: relative;
+    text-align: center;
+    
+}
+
+.sqs-block-button-element--small {
+    border-width: 2px;
+    border-style: solid;
+    padding: 13px 26px;
+    font-size: 12px;
+    font-family: "brandon-grotesque";
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 500;
+    font-style: normal;
+    border-color: #272727;
+    color: black;
+}
+
+.sqs-waw-block-button-element--small {
+    border-width: 2px;
+    border-style: solid;
+    padding: 13px 26px;
+    font-size: 12px;
+    font-family: "brandon-grotesque";
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 500;
+    font-style: normal;
+    border-color: white;
+    color: white;
+}

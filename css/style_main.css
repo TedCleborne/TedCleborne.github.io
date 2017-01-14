@@ -1,0 +1,47 @@
+
+* {
+    box-sizing: border-box;
+}
+
+@-ms-viewport{
+    width: extend-to-zoom;
+    zoom: 1.0;
+}
+
+
+
+.title-desc-image{
+    text-align: center;
+    padding-bottom: 3%;
+    height: 60vh;
+    background:url(../img/announcement.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+}
+
+.content-inner-main{
+    padding: 0;
+    max-width: 960px;
+    margin: 0 auto;
+    height:90vh;
+}
+
+h1.announcement-text {
+    font-family: "Foundry Origin W01 Bk",Georgia, serif;
+    color: #37383b;
+    text-transform: uppercase;
+    font-style: normal;
+    margin: 0;
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    line-height: 0%;
+    position: relative;
+    font-size: 4vw;
+  
+}
+
+
+
+
