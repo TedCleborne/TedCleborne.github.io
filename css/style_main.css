@@ -26,6 +26,15 @@
     height:90vh;
 }
 
+.announcement {
+position:relative; z-index:10; padding:8px; background:#fff; border-top:2px solid grey; border-bottom:2px solid black;
+
+}
+
+.announcement:before{content:""; display:block; position:absolute; z-index:-1; top:2px; left:2px; right:2px; 
+bottom:2px; border-bottom:2px solid grey}
+
+
 h1.announcement-text {
     font-family: "Foundry Origin W01 Bk",Georgia, serif;
     color: #37383b;
@@ -37,17 +46,18 @@ h1.announcement-text {
     padding-bottom: 4%;
     line-height: 0%;
     position: relative;
-    font-size: 2.5vw;
+    font-size: 2.9vw;
+    letter-spacing: 1vw;
   
 }
 
 .full-date-and-time {  
     text-align: center;
+    margin-top: 1%;
     height: 25vh;
     background: url(../img/FullDateAndTime.jpeg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
+
+    
 }
-
-
-
