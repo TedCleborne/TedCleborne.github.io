@@ -2,353 +2,315 @@
 <html>
     <head>
         <title>Melissa and Ted</title>
-    </head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
         <meta charset="utf-8" />
-        <link href="http://s3.amazonaws.com/codecademy-content/courses/ltp2/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/skeleton.css">
         <link rel="stylesheet" href="css/style_menu_header.css" type="text/css"/>
-        <link rel="stylesheet" href="css/style.css" type="text/css"/>
-
+        <link rel="stylesheet" href="css/style_weddingparty.css" type="text/css"/>   
+    </head>
     <body>
-            <ul class="topnav" id="myTopnav">
-                <li><a class="active" href="index.html">Melissa & Ted</a></li>
-                <li><a href="ourstory.html">Our Story</a></li>
-                <li><a href="whenandwhere.html">When and Where</a></li>
-                <li><a href="weddingparty.html">Wedding Party</a></li>
-                <li><a href="registry.html">Registry</a></li>
-                <li><a href="moreinfo.html">More Info</a></li>
-                <li class="icon">
-                    <a href="javascript:void(0);" style="font-size:15px;" onclick="myFunction()">☰</a>
-                </li>
-            </ul>
-          
-            <script> 
-            function myFunction() {
-                var x = document.getElementById("myTopnav");
-                if (x.className === "topnav") {
-                    x.className += " responsive";
-                } else {
-                    x.className = "topnav";
-                }
-            }
-            </script>
+    <header>
+    
+      <a href="index.html" class="logo">Melissa & Ted</a>
+    
+      <a class="hamburger-menu">Menu</a>
+    
+      <nav class="main-menu hide">
+    
+        <ul class="ul-main-menu">
+            <li><a href="ourstory.html">Our Story</a></li>
+            <li><a href="whenandwhere.html">When and Where</a></li>
+            <li><a href="weddingparty.html">Wedding Party</a></li>
+            <li><a href="registry.html">Registry</a></li>
+            <li><a href="moreinfo.html">All Info</a></li>
+        </ul>
+      </nav>
+    
+    </header>
 
-        <h1 class="when-where-text">Meet the Team</h1>
-        <br>
-        <h2 class="datetime">Groomsmen</h2>
-        <div class="wedding-party">
+    <div class="groomsmen">
+        <div class="container">
             <div class="content-inner">
-                <div class="groomsmen">
-                    <div class="row">
-                        <div class="col-xs-4">
-                            <img src="img/male.jpg" align="middle" width="100%"/>                            
-                        </div>
-                        <div class="col-xs-4">
-                            <img src="img/male.jpg" align="middle" width="100%"/>                            
-                        </div>
-                        <div class="col-xs-4">
-                            <img src="img/male.jpg" align="middle" width="100%"/>                            
-                        </div>
-                    </div>
-                    <div class="row">
-                         <div class="col-xs-4">
-                            <h1 class="team-player-name">Sebastian</h1>
-                            <br>
+                <h1 class="meet-the-team-text">Meet the Team</h1>
+                <h2 class="bridal-party-text">Groomsmen</h2>
+            </div>
+            <div class="content-inner">
+                <div class="row">
+                    <div class="one-third column">
+                        <img class="img-circle" src="img/Sebastian.jpeg" align="middle" width="100%" height="auto"/>
+                        <h1 class="team-player-name">Sebastian</h1>
                             <h2 class="team-player-info">
-                                "Allergic" to bread & eggs.
+                                Former lover of cheese.
                                 <br>
-                                Most disingenuous SOB ever.
+                                Drinker of whiskey.
                                 <br>
                                 Best Man.
                             </h2>   
-                        </div>
-                         <div class="col-xs-4">
-                            <h1 class="team-player-name">Mike</h1>
-                            <br>
-                            <h2 class="team-player-info">
-                                Future mayor of New West.
-                                <br>
-                                Sibling to 12 dogs.
-                                <br>
-                                Rumblers patriarch.
-                            </h2>   
-                        </div>  
-                         <div class="col-xs-4">
-                            <h1 class="team-player-name">Brian</h1>
-                            <br>
-                            <h2 class="team-player-info">
-                                City Slicker.
-                                <br>
-                                Votes NDP.
-                                <br>
-                                Closet Liberal.
-                            </h2>   
-                        </div>  
                     </div>
-                    <div class="row">
-                        <div class="col-xs-4">
-                            <img src="img/male.jpg" align="middle" width="100%"/>                            
-                        </div>
-                        <div class="col-xs-4">
-                            <img src="img/male.jpg" align="middle" width="100%"/>                            
-                        </div>
-                        <div class="col-xs-4">
-                            <img src="img/male.jpg" align="middle" width="100%"/>                            
-                        </div>
+                    <div class="one-third column">
+                        <img class="img-circle" src="img/Mike.jpeg" align="middle" width="100%" height="auto"/>
+                        <h1 class="team-player-name">Mike</h1>
+                            <h2 class="team-player-info">
+                                Keeper of Ted's childhood secrets.
+                                <br>
+                                Inventor of "Clebyo."
+                                <br>
+                                Oldest friend.
+                            </h2>   
                     </div>
-                    <div class="row">
-                         <div class="col-xs-4">
-                            <h1 class="team-player-name">Adeem</h1>
-                            <br>
+                    <div class="one-third column">
+                        <img class="img-circle" src="img/Brian.jpeg" align="middle" width="100%" height="auto"/>
+                        <h1 class="team-player-name">Brian</h1>
                             <h2 class="team-player-info">
-                                "Allergic" to bread & eggs.
+                                One-time sharer of a double wide cube. 
                                 <br>
-                                Most disingenuous SOB ever.
+                                Gulp Off Champion.
                                 <br>
-                                Best Man.
-                            </h2>   
-                        </div>
-                         <div class="col-xs-4">
-                            <h1 class="team-player-name">Matthew</h1>
-                            <br>
-                            <h2 class="team-player-info">
-                                Future mayor of New West.
-                                <br>
-                                Sibling to 12 dogs.
-                                <br>
-                                Rumblers patriarch.
-                            </h2>   
-                        </div>  
-                         <div class="col-xs-4">
-                            <h1 class="team-player-name">Chris</h1>
-                            <br>
-                            <h2 class="team-player-info">
-                                City Slicker.
-                                <br>
-                                Votes NDP.
-                                <br>
-                                Closet Liberal.
-                            </h2>   
-                        </div>  
-                    </div>
-                    <div class="row">
-                        <div class="col-xs-4">
-                            <img src="img/male.jpg" align="middle" width="100%"/>                            
-                        </div>
-                        <div class="col-xs-4">
-                            <img src="img/male.jpg" align="middle" width="100%"/>                            
-                        </div>
-
-                    </div>
-                    <div class="row">
-                         <div class="col-xs-4">
-                            <h1 class="team-player-name">James</h1>
-                            <br>
-                            <h2 class="team-player-info">
-                                "Allergic" to bread & eggs.
-                                <br>
-                                Most disingenuous SOB ever.
-                                <br>
-                                Best Man.
-                            </h2>   
-                        </div>
-                         <div class="col-xs-4">
-                            <h1 class="team-player-name">Cousin</h1>
-                            <br>
-                            <h2 class="team-player-info">
-                                Future mayor of New West.
-                                <br>
-                                Sibling to 12 dogs.
-                                <br>
-                                Rumblers patriarch.
-                            </h2>   
-                        </div>  
-
+                                Dubs Ted "Sonic."
+                            </h2>  
                     </div>
                 </div>
-                <div class="content-spacer"></div>
-                <div class="bridesmaids">
-                    <span class="bridesmaids-text">Bridesmaids</span>
+                <br>
+                <div class="row">
+                    <div class="one-third column">
+                        <img class="img-circle" src="img/male.jpg" align="middle" width="100%" height="30%"/>
+                        <h1 class="team-player-name">James</h1>
+                            <h2 class="team-player-info">
+                                Shares hockey passion.
+                                <br>
+                                Makes a great Old Fashioned.
+                                <br>
+                                Podcast enthusiast.
+                            </h2>   
+                    </div>
+                    <div class="one-third column">
+                        <img class="img-circle" src="img/male.jpg" align="middle" width="100%" height="30%"/>
+                        <h1 class="team-player-name">Adeem</h1>
+                            <h2 class="team-player-info">
+                                Ask him about Thanksgiving in VT.
+                                <br>
+                                Not a fan of heights.
+                                <br>
+                                Will outdance anyone.
+                            </h2>   
+                    </div>
+                    <div class="one-third column">
+                        <img class="img-circle" src="img/male.jpg" align="middle" width="100%" height="30%"/>
+                        <h1 class="team-player-name">Matthew</h1>
+                            <h2 class="team-player-info">
+                                Late night snacker.
+                                <br>
+                                Can fix just about anything.
+                                <br>
+                                IPA Drinker.
+                            </h2>   
+                    </div>
                 </div>
-                <div class="bridesmaids">
-                    <div class="row">
-                        <div class="col-xs-4">
-                            <img src="img/female.jpeg" align="middle" width="100%"/>                            
-                        </div>
-                        <div class="col-xs-4">
-                            <img src="img/female.jpeg" align="middle" width="100%"/>                            
-                        </div>
-                        <div class="col-xs-4">
-                            <img src="img/female.jpeg" align="middle" width="100%"/>                            
-                        </div>
+                <br>
+                <div class="row">
+                    <div class="one-third column">
+                        <img class="img-circle" src="img/male.jpg" align="middle" width="100%" height="30%"/>
+                        <h1 class="team-player-name">Chris</h1>
+                            <h2 class="team-player-info">
+                                Father of Ring Bearers.
+                                <br>
+                                Married Matthew and Waite.
+                                <br>
+                                Blood brother.        
+                            </h2>   
                     </div>
-                    <div class="row">
-                         <div class="col-xs-4">
-                            <h1 class="team-player-name">Phoebe</h1>
-                            <br>
+                    <div class="one-third column">
+                        <img class="img-circle" src="img/male.jpg" align="middle" width="100%" height="30%"/>
+                        <h1 class="team-player-name">Dexter</h1>
                             <h2 class="team-player-info">
-                                "Allergic" to bread & eggs.
+                                Father of Flower Girl.
                                 <br>
-                                Most disingenuous SOB ever.
+                                Appreciates good coffee.
                                 <br>
-                                Best Man.
+                                World traveler.
                             </h2>   
-                        </div>
-                         <div class="col-xs-4">
-                            <h1 class="team-player-name">Stephanie</h1>
-                            <br>
-                            <h2 class="team-player-info">
-                                Future mayor of New West.
-                                <br>
-                                Sibling to 12 dogs.
-                                <br>
-                                Rumblers patriarch.
-                            </h2>   
-                        </div>  
-                         <div class="col-xs-4">
-                            <h1 class="team-player-name">Avanti</h1>
-                            <br>
-                            <h2 class="team-player-info">
-                                City Slicker.
-                                <br>
-                                Votes NDP.
-                                <br>
-                                Closet Liberal.
-                            </h2>   
-                        </div>  
                     </div>
-                    <div class="row">
-                        <div class="col-xs-4">
-                            <img src="img/female.jpeg" align="middle" width="100%"/>                            
-                        </div>
-                        <div class="col-xs-4">
-                            <img src="img/female.jpeg" align="middle" width="100%"/>                            
-                        </div>
-                        <div class="col-xs-4">
-                            <img src="img/female.jpeg" align="middle" width="100%"/>                            
-                        </div>
-                    </div>
-                    <div class="row">
-                         <div class="col-xs-4">
-                            <h1 class="team-player-name">Lauren</h1>
-                            <br>
+                    <div class="one-third column">
+                        <img class="img-circle" src="img/male.jpg" align="middle" width="100%" height="30%"/>
+                        <h1 class="team-player-name">Spencer</h1>
                             <h2 class="team-player-info">
-                                "Allergic" to bread & eggs.
+                                Melissa's youngest cousin.
                                 <br>
-                                Most disingenuous SOB ever.
+                                Video game enthusiast.
                                 <br>
-                                Best Man.
+                                Recently engaged.
                             </h2>   
-                        </div>
-                         <div class="col-xs-4">
-                            <h1 class="team-player-name">Adisha</h1>
-                            <br>
-                            <h2 class="team-player-info">
-                                Future mayor of New West.
-                                <br>
-                                Sibling to 12 dogs.
-                                <br>
-                                Rumblers patriarch.
-                            </h2>   
-                        </div>  
-                         <div class="col-xs-4">
-                            <h1 class="team-player-name">Abby</h1>
-                            <br>
-                            <h2 class="team-player-info">
-                                City Slicker.
-                                <br>
-                                Votes NDP.
-                                <br>
-                                Closet Liberal.
-                            </h2>   
-                        </div>  
-                    </div>
-                    <div class="row">
-                        <div class="col-xs-4">
-                            <img src="img/female.jpeg" align="middle" width="100%"/>                            
-                        </div>
-                        <div class="col-xs-4">
-                            <img src="img/female.jpeg" align="middle" width="100%"/>                            
-                        </div>
-                        <div class="col-xs-4">
-                            <img src="img/female.jpeg" align="middle" width="100%"/>                            
-                        </div>
-                    </div>
-                    <div class="row">
-                         <div class="col-xs-4">
-                            <h1 class="team-player-name">Joanne</h1>
-                            <br>
-                            <h2 class="team-player-info">
-                                "Allergic" to bread & eggs.
-                                <br>
-                                Most disingenuous SOB ever.
-                                <br>
-                                Best Man.
-                            </h2>   
-                        </div>
-                         <div class="col-xs-4">
-                            <h1 class="team-player-name">Sabrina</h1>
-                            <br>
-                            <h2 class="team-player-info">
-                                Future mayor of New West.
-                                <br>
-                                Sibling to 12 dogs.
-                                <br>
-                                Rumblers patriarch.
-                            </h2>   
-                        </div>
-                         <div class="col-xs-4">
-                            <h1 class="team-player-name">Waite</h1>
-                            <br>
-                            <h2 class="team-player-info">
-                                City Slicker.
-                                <br>
-                                Votes NDP.
-                                <br>
-                                Closet Liberal.
-                            </h2>   
-                        </div>
-                    </div>
-                <div class="content-spacer"></div>
-                <div class="ringbearers">
-                    <span class="ringbearers-text">Ringbearers</span>
-                
-                    <div class="row">
-                        <div class="col-xs-6">
-                            <img src="img/male.jpg" align="middle" width="100%"/>                            
-                        </div>
-                        <div class="col-xs-6">
-                            <img src="img/male.jpg" align="middle" width="100%"/>                            
-                        </div>
-                    </div>
-                    <div class="row">
-                    <div class="col-xs-6">
-                            <h1 class="team-player-name">Kai</h1>
-                            <br>
-                            <h2 class="team-player-info">
-                                Future mayor of New West.
-                                <br>
-                                Sibling to 12 dogs.
-                                <br>
-                                Rumblers patriarch.
-                            </h2>   
-                        </div>
-                         <div class="col-xs-6">
-                            <h1 class="team-player-name">Seth Daniel</h1>
-                            <br>
-                            <h2 class="team-player-info">
-                                City Slicker.
-                                <br>
-                                Votes NDP.
-                                <br>
-                                Closet Liberal.
-                            </h2>   
-                        </div>
                     </div>
                 </div>
             </div>
         </div>
-        <footer id="footer">
-            <span>Copyright © 2017 Fatty Productions</span>
-        </footer>
+    </div>
+    <div class="bridesmaids">
+        <div class="container">
+            <div class="content-inner">
+                <h2 class="bridal-party-text">Bridesmaids</h2>
+            </div>
+            <div class="content-inner">
+                <div class="row">
+                    <div class="one-third column">
+                        <img class="img-circle" src="img/female.jpeg" align="middle" width="100%" height="auto"/>
+                        <h1 class="team-player-name">Phoebe</h1>
+                            <h2 class="team-player-info">
+                                Former lover of cheese.
+                                <br>
+                                Drinker of whiskey.
+                                <br>
+                                Best Man.
+                            </h2>   
+                    </div>
+                    <div class="one-third column">
+                        <img class="img-circle" src="img/female.jpeg" align="middle" width="100%" height="auto"/>
+                        <h1 class="team-player-name">Stephanie</h1>
+                            <h2 class="team-player-info">
+                                Former lover of cheese.
+                                <br>
+                                Drinker of whiskey.
+                                <br>
+                                Best Man.
+                            </h2>   
+                    </div>
+                    <div class="one-third column">
+                        <img class="img-circle" src="img/female.jpeg" align="middle" width="100%" height="auto"/>
+                        <h1 class="team-player-name">Avanti</h1>
+                            <h2 class="team-player-info">
+                                Former lover of cheese.
+                                <br>
+                                Drinker of whiskey.
+                                <br>
+                                Best Man.
+                            </h2>   
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="one-third column">
+                        <img class="img-circle" src="img/female.jpeg" align="middle" width="100%" height="auto"/>
+                        <h1 class="team-player-name">JoAnne</h1>
+                            <h2 class="team-player-info">
+                                Former lover of cheese.
+                                <br>
+                                Drinker of whiskey.
+                                <br>
+                                Best Man.
+                            </h2>   
+                    </div>
+                    <div class="one-third column">
+                        <img class="img-circle" src="img/female.jpeg" align="middle" width="100%" height="auto"/>
+                        <h1 class="team-player-name">Lauren</h1>
+                            <h2 class="team-player-info">
+                                Former lover of cheese.
+                                <br>
+                                Drinker of whiskey.
+                                <br>
+                                Best Man.
+                            </h2>   
+                    </div>
+                    <div class="one-third column">
+                        <img class="img-circle" src="img/female.jpeg" align="middle" width="100%" height="auto"/>
+                        <h1 class="team-player-name">Adisha</h1>
+                            <h2 class="team-player-info">
+                                Former lover of cheese.
+                                <br>
+                                Drinker of whiskey.
+                                <br>
+                                Best Man.
+                            </h2>   
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="one-third column">
+                        <img class="img-circle" src="img/female.jpeg" align="middle" width="100%" height="auto"/>
+                        <h1 class="team-player-name">Abby</h1>
+                            <h2 class="team-player-info">
+                                Former lover of cheese.
+                                <br>
+                                Drinker of whiskey.
+                                <br>
+                                Best Man.
+                            </h2>   
+                    </div>
+                    <div class="one-third column">
+                        <img class="img-circle" src="img/female.jpeg" align="middle" width="100%" height="auto"/>
+                        <h1 class="team-player-name">Sabrina</h1>
+                            <h2 class="team-player-info">
+                                Former lover of cheese.
+                                <br>
+                                Drinker of whiskey.
+                                <br>
+                                Best Man.
+                            </h2>   
+                    </div>
+                    <div class="one-third column">
+                        <img class="img-circle" src="img/female.jpeg" align="middle" width="100%" height="auto"/>
+                        <h1 class="team-player-name">Waite</h1>
+                            <h2 class="team-player-info">
+                                Former lover of cheese.
+                                <br>
+                                Drinker of whiskey.
+                                <br>
+                                Best Man.
+                            </h2>   
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="youngins">
+        <div class="container">
+            <div class="content-inner">
+                <h2 class="bridal-party-text">Ring Bearers & Flower Girl</h2>
+            </div>
+            <br>
+            <br>
+            <br>
+            <div class="content-inner">
+                <div class="row">
+                    <div class="one-third column">
+                        <img class="img-circle" src="img/male.jpg" align="middle" width="100%" height="auto"/>
+                        <h1 class="team-player-name">Kai</h1>
+                            <h2 class="team-player-info">
+                                Former lover of cheese.
+                                <br>
+                                Drinker of whiskey.
+                                <br>
+                                Best Man.
+                            </h2>   
+                    </div>
+                    <div class="one-third column">
+                        <img class="img-circle" src="img/male.jpg" align="middle" width="100%" height="auto"/>
+                        <h1 class="team-player-name">Seth Daniel</h1>
+                            <h2 class="team-player-info">
+                                Former lover of cheese.
+                                <br>
+                                Drinker of whiskey.
+                                <br>
+                                Best Man.
+                            </h2>   
+                    </div>
+                    <div class="one-third column">
+                        <img class="img-circle" src="img/female.jpeg" align="middle" width="100%" height="auto"/>
+                        <h1 class="team-player-name">Ali</h1>
+                            <h2 class="team-player-info">
+                                Former lover of cheese.
+                                <br>
+                                Drinker of whiskey.
+                                <br>
+                                Best Man.
+                            </h2>   
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script type="text/javascript" src="js/my.js"></script>
     </body>
 </html>

@@ -1,0 +1,140 @@
+
+* {
+    box-sizing: border-box;
+}
+
+@-ms-viewport{
+    width: extend-to-zoom;
+    zoom: 1.0;
+}
+
+h1.meet-the-team-text {
+    font-family: "Foundry Origin W01 Bk",Georgia, serif;
+    color: white;
+    letter-spacing: 0.2em;
+    font-size:36px;
+    text-transform: uppercase;
+    font-style: normal;
+    margin: 0;
+    text-align: center;
+    padding-top: 10px;
+    
+}
+
+h2.bridal-party-text {
+    font-family: "brandon-grotesque";
+    font-size: 26px;
+    line-height: 1.6em;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    text-align: center;
+}
+
+.wedding-party-text{
+    text-align: center;
+    
+}
+
+
+.wedding-party {
+    width: 100%;
+    background-color: white;
+    position: relative;
+    z-index: 50;
+}
+
+.meet-the-team{
+    text-transform: uppercase;
+    font-family: brandon-grot-w01-light,sans-serif;
+    font-size: 48px;
+}
+
+.team-player-name {
+    font-family: "brandon-grotesque";
+    font-size: 26px;
+    line-height: 1.6em;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    text-align: center;
+    margin: 0;
+}
+
+.team-player-info{
+    margin: 0;
+    padding: 0;
+    padding: 0;
+    font-family: brandon-grot-w01-light, sans-serif;
+    font-size: 16px;
+    text-align: center;
+    text-transform: none;
+    color: white;
+}
+
+.content-inner{
+    padding: 5px 8%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.wedding-party-content-inner {
+    padding: 5px 8%;
+    max-width: 960px;
+    margin: 0 auto;   
+}
+
+.groomsmen{
+    position: relative;
+    background: url(../img/greetingsfromdenver.jpg);
+    width:100%;
+    background-size: 100% 100%;
+    opacity: 1.0;
+}
+
+.bridesmaids{
+    position: relative;
+    background: url(../img/greetingsfromaustin.jpg);
+    width:100%;
+    background-size: 100% 100%;
+    opacity: 1.0;
+}
+
+.youngins{
+    position: relative;
+    background: url(../img/stonebarns_exterior.jpg);
+    width:100%;
+    background-size: 100% 100%;
+    opacity: 1.0; 
+}
+
+
+
+.groomsmen-text{
+    font-family: brandon-grot-w01-light,sans-serif;
+    font-size:24px;
+    text-align: center;
+}
+
+.bridesmaids-text{
+    font-family: brandon-grot-w01-light,sans-serif;
+    font-size:24px;
+    text-align: center;
+}
+.ringbearers-text{
+    font-family: brandon-grot-w01-light,sans-serif;
+    font-size:24px;
+    text-align: center;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+
+    

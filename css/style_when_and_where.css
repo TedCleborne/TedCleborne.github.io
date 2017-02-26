@@ -12,7 +12,7 @@
     position: relative;
     background: url(../img/bluehillside.jpeg);
     width:100%;
-    height: 90vh;
+    height: 91vh;
     background-size: 100% 100%;
     opacity: 1.0;
 }
@@ -27,6 +27,8 @@ h1.when-where-text {
     margin: 0;
     text-align: center;
     padding-top: 10px;
+    font-weight: 500;
+    line-height: 1.1;
     
 }
 
@@ -53,6 +55,8 @@ h3.bluehill {
     font-style: normal;
     margin: 0;
     text-align: center;
+    font-weight: 500;
+    line-height: 1.1;
 }
 
 h4.stonebarns {
@@ -64,6 +68,8 @@ h4.stonebarns {
     font-style: normal;
     margin: 0;
     text-align: center;
+    font-weight: 500;
+    line-height: 1.1;
 }
 
 h5.bluehilladdress {
@@ -73,6 +79,9 @@ h5.bluehilladdress {
     line-height: 1.8em;
     letter-spacing: 0.1em;
     text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 500;
     
 }
 
@@ -96,17 +105,48 @@ h1.accomodations-text{
     margin: 0;
     text-align: center;
     padding-top: 10px;
+    font-weight: 500;
+    line-height: 1.1;
 }
 
 h2.group-rate{
     color: white;
     text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-family: "Foundry Origin W01 Bk",Georgia, serif;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    font-style: normal;
+    margin: 0;
+    font-weight: 500;
+    line-height: 1.1;
+    padding-top: 20px;
     
 }
 
+.hotel{
+    font-family: "Foundry Origin W01 Bk",Georgia, serif;
+    color: white;
+    font-size:24px;
+    text-transform: uppercase;
+    font-style: normal;
+    margin-top: 30px;
+    text-align: center;
+    font-weight: 500;
+    line-height: 1.1;
+}
 .accomodations-address{
     color: white;
     text-align: center;
+    font-size: 14px;
+    font-family: "BellGothicBTW01-Roman", Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    line-height: 1.8em;
+    letter-spacing: 0.1em;
+    margin-bottom: 10px;
+    font-weight: 500;
 }
 
 .sqs-block {
@@ -141,4 +181,19 @@ h2.group-rate{
     font-style: normal;
     border-color: white;
     color: white;
+}
+
+.sqs-wawmap-block-button-element--small {
+    border-width: 2px;
+    border-style: solid;
+    padding: 13px 26px;
+    font-size: 12px;
+    font-family: "brandon-grotesque";
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 500;
+    font-style: normal;
+    border-color: white;
+    color: white;
+    margin-left: 40px;
 }

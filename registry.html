@@ -2,69 +2,72 @@
 <html>
     <head>
         <title>Melissa and Ted</title>
-    </head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
         <meta charset="utf-8" />
-        <link href="http://s3.amazonaws.com/codecademy-content/courses/ltp2/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/skeleton.css">
         <link rel="stylesheet" href="css/style_menu_header.css" type="text/css"/>
-        <link rel="stylesheet" href="css/style.css" type="text/css"/>
-
+        <link rel="stylesheet" href="css/style_registry.css" type="text/css"/>   
+    </head>
     <body>
-            <ul class="topnav" id="myTopnav">
-                <li><a class="active" href="index.html">Melissa & Ted</a></li>
-                <li><a href="ourstory.html">Our Story</a></li>
-                <li><a href="whenandwhere.html">When and Where</a></li>
-                <li><a href="weddingparty.html">Wedding Party</a></li>
-                <li><a href="registry.html">Registry</a></li>
-                <li><a href="moreinfo.html">More Info</a></li>
-                <li class="icon">
-                    <a href="javascript:void(0);" style="font-size:15px;" onclick="myFunction()">☰</a>
-                </li>
-            </ul>
-          
-            <script> 
-            function myFunction() {
-                var x = document.getElementById("myTopnav");
-                if (x.className === "topnav") {
-                    x.className += " responsive";
-                } else {
-                    x.className = "topnav";
-                }
-            }
-            </script>
+    <header>
+    
+      <a href="index.html" class="logo">Melissa & Ted</a>
+    
+      <a class="hamburger-menu">Menu</a>
+    
+      <nav class="main-menu hide">
+    
+        <ul class="ul-main-menu">
+            <li><a href="ourstory.html">Our Story</a></li>
+            <li><a href="whenandwhere.html">When and Where</a></li>
+            <li><a href="weddingparty.html">Wedding Party</a></li>
+            <li><a href="registry.html">Registry</a></li>
+            <li><a href="moreinfo.html">All Info</a></li>
+        </ul>
+      </nav>
+    
+    </header>
+       
         <div class="registry">
-            <div class="content-inner">
-                <div class="row">
-                    <div class="col-xs-12">
-                        <h1 class="registry-header">Registry</h1>
+            <div class="container">
+                <div class="content-inner">
+                    <h1 class="registry-header">Registry</h1>
+                    <div class="row">
+                        <div class="twelve columns">
+                            <h2 class="registry-text">                
+                                What we want most for our wedding is to have all of our friends and family there to celebrate
+                                the occasion with us, and so, more than anything we would simply enjoy your presence. (We mean it!)
+                                That said, we also enjoy dishware and a shiny new toaster too, so if you really would
+                                like to get us something, you can find some suggestions here:
+                            </h2>
+                        </div>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="col-xs-12">
-                        <h2 class="registry-text">                
-                            What we want most for our wedding is to have all of our friends and family there to celebrate
-                            the occasion with us, and so, more than anything we would simply enjoy your presence. (We mean it!)
-                            That said, we also enjoy dishware and shiny new toasters too, so if you really would
-                            like to get us something, you can find some suggestions here:
-                    </div>
-                </div>
-                <br>
-                <div class="row">
-                    <div class="col-xs-4">
-                        <a href="https://www.bedbathandbeyond.com/" target="_blank">
-                            <img src="img/BBB.png" align="middle" width="100%"/>
-                        </a>
-                    </div>
-                    <div class="col-xs-4">
-                        <a href="http://www.westelm.com/" target="_blank">
-                            <img src="img/westelm.png" align="middle" width="100%"/>       
-                    </div>
-                    <div class="col-xs-4">
-                        <a href="https://www.amazon.com/" target="_blank">
-                            <img src="img/Amazon.png" align="middle" width="100%"/>       
-                    </div>
+                    <table class="registry-table">
+                    <tbody>
+                        <tr class="registry-table-row">
+                            <td class="registry-table-cell">
+                                <a href="http://www.crateandbarrel.com/gift-registry/ted-cleborne-and-melissa-te/r5650328" target="blank">
+                                    <img src="img/CrateLogo.png" align="left" height="40" width ="225"/>
+                                </a>
+                            </td>
+                            <td class="registry-table-cell">
+                                <a href="http://www.crateandbarrel.com/gift-registry/ted-cleborne-and-melissa-te/r5650328" target="blank"> 
+                                    <img src="img/BBB.png" align="middle" height="70" width ="225"/>
+                                </a>
+                            </td>
+                            <td class="registry-table-cell">
+                                <a href="http://www.crateandbarrel.com/gift-registry/ted-cleborne-and-melissa-te/r5650328" target="blank">            
+                                    <img src="img/Bloomingdales.png" align="left" height="160" width ="225"/>
+                                </a>
+                            </td>
+     
+                        </tr>
+                    </table>
                 </div>
             </div>
-        </div>     
-
+        </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script type="text/javascript" src="js/my.js"></script>
     </body>
 </html>

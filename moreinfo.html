@@ -4,98 +4,92 @@
         <title>Melissa and Ted</title>
     </head>
         <meta charset="utf-8" />
-        <link href="http://s3.amazonaws.com/codecademy-content/courses/ltp2/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/skeleton.css">
         <link rel="stylesheet" href="css/style_menu_header.css" type="text/css"/>
         <link rel="stylesheet" href="css/style.css" type="text/css"/>
 
     <body>
-             <ul class="topnav" id="myTopnav">
-                <li><a class="active" href="index.html">Melissa & Ted</a></li>
+    <header>
+        <a href="index.html" class="logo">Melissa & Ted</a>
+        <a class="hamburger-menu">Menu</a>
+        <nav class="main-menu hide">
+            <ul class="ul-main-menu">
                 <li><a href="ourstory.html">Our Story</a></li>
                 <li><a href="whenandwhere.html">When and Where</a></li>
                 <li><a href="weddingparty.html">Wedding Party</a></li>
                 <li><a href="registry.html">Registry</a></li>
-                <li><a href="moreinfo.html">More Info</a></li>
-                <li class="icon">
-                    <a href="javascript:void(0);" style="font-size:15px;" onclick="myFunction()">☰</a>
-                </li>
+                <li><a href="moreinfo.html">All Info</a></li>
             </ul>
-          
-            <script> 
-            function myFunction() {
-                var x = document.getElementById("myTopnav");
-                if (x.className === "topnav") {
-                    x.className += " responsive";
-                } else {
-                    x.className = "topnav";
-                }
-            }
-            </script>             
-        <div class="add-to-our-story">
-            <div class="content-inner">
-                <div class="row">
-                    <div class="col-xs-4">
-                        <h3>When and Where</h3>
-                        <p>Our big day is on Friday, September 15th, in the courtyard of Blue Hill at Stone Barns in Pocantico Hills, New York.</p>
+      </nav> 
+    </header>
+        <div class="container">
+            <div class="add-to-our-story">
+                <div class="content-inner">
+                    <div class="row">
+                        <div class="one-third column">
+                            <h3>When and Where</h3>
+                            <p>Our big day is on Friday, September 15th, in the courtyard of Blue Hill at Stone Barns in Pocantico Hills, New York.</p>
+                        </div>
+                        <div class="one-third column">
+                            <h3>Ceremony</h3>
+                            <p>Our ceremony will start promptly at 6:30 p.m. Seating is in a circle so no need to pick sides.</p>
+                        </div>
+                        <div class="one-third column">
+                            <h3>Reception</h3>
+                            <p>Our reception will start immediately following the ceremony with drinks and hors d'oeuvres served promptly.</p>
+                        </div>
                     </div>
-                    <div class="col-xs-4">
-                        <h3>Ceremony</h3>
-                        <p>Our ceremony will start promptly at 6:30 p.m. Sunglasses are advised as the sunset should be nothing short of amazing.</p>
+                    <div class="row">
+                        <div class="one-third column">
+                            <h3>Travel from Hotel</h3>
+                            <p>Transportation will be provided between the DoubleTree Hilton Hotel and Blue Hill before and after the ceremony.</p>
+                        </div>
+                        <div class="one-third column">
+                            <h3>Live DJ</h3>
+                            <p><a href="http://www.scratchweddings.com/wedding-dj/new-york-dj-spawn/" target="_blank">DJ Spawn</a> has signed on, and we're stoked! When he isn't educating the youth of NYC he is an incredible DJ.</p>
+                        </div>
+                        <div class="one-third column">
+                            <h3>After Party</h3>
+                            <p>After the show, it's the after party. Join us at the Bistro Z Lounge at the DoubleTree Hilton Hotel for the late night party.</p>
+                        </div>
                     </div>
-                    <div class="col-xs-4">
-                        <h3>Reception</h3>
-                        <p>Our reception will start immediately following the ceremony with drinks and hors d'oeuvres served promptly.</p>
+                    <div class="row">
+                        <div class="one-third column">
+                            <h3>Travel Info</h3>
+                            <p>If you will be traveling from out of state and need directions you can find them here. Let us know if you need help with your plans.</p>
+                        </div>
+                        <div class="one-third column">
+                            <h3>Weather Forecast</h3>
+                            <p>The weather here in New York is usually pretty nice during this time of year. Please <a href="https://weather.com/weather/tenday/l/USNY1439:1:US" target="_blank">check the local forecast</a> before leaving.</p>
+                        </div>
+                        <div class="one-third column">
+                            <h3>Stay With Us</h3>
+                            <p>We will be staying at the hotel and would love for you to join us. Contact the DoubleTree Hilton Hotel or go online and use the group code TCW before August 15, 2017.</p>
+                        </div>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="col-xs-4">
-                        <h3>Travel from Hotel</h3>
-                        <p>Transportation will be provided between the hotel and Blue Hill.</p>
+                    <div class="row">
+                        <div class="one-third column">
+                            <h3>Instagram Hashtag</h3>
+                            <p>Capture memories at any point during the festivities and post them to Instagram using #MelTed91517 and
+                        they will be captured throughout the ceremony. All photos will also be viewable here after the event. </p>
+                        </div>
+                        <div class="one-third column">
+                            <h3>Photographer</h3>
+                            <p>Christian Oth Studio</p>
+                        </div>
+                        <div class="one-third column">
+                            <h3>Videographer</h3>
+                            <p>Placeholder</p>
+                        </div>
                     </div>
-                    <div class="col-xs-4">
-                        <h3>Live Music</h3>
-                        <p>The guys from The Hip Abduction have signed on, and we're stoked! They're an amazing local band with a great sound.</p>
-                    </div>
-                    <div class="col-xs-4">
-                        <h3>After Party</h3>
-                        <p>They after party is already planned. Join us at the hotel lobby.</p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-xs-4">
-                        <h3>Travel Info</h3>
-                        <p>If you will be traveling from out of state and need directions you can find them here. Let us know if you need help with your plans.</p>
-                    </div>
-                    <div class="col-xs-4">
-                        <h3>Weather Forecast</h3>
-                        <p>The weather here in sunny FL is usually pretty nice during this time of year. Please check the local forecast before leaving.</p>
-                    </div>
-                    <div class="col-xs-4">
-                        <h3>Stay With Us</h3>
-                        <p>We will be staying at the hotel and would love for you to join us. Contact The Postcard Inn and ask for the Srofe/Sheehan wedding.</p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-xs-4">
-                        <h3>Instagram Hashtag</h3>
-                        <p>Capture memories at any point during the festivities and post them to Instagram using #MelTed91517 and
-                    they will be captured throughout the ceremony. All photos will also be viewable here after the event. </p>
-                    </div>
-                    <div class="col-xs-4">
-                        <h3>Photographer</h3>
-                        <p>Christian Oth Studio</p>
-                    </div>
-                    <div class="col-xs-4">
-                        <h3>Videographer</h3>
-                        <p>Placeholder</p>
-                    </div>
-                </div>
-                <br>
-                <div class="row">
-                    <div class="col-xs-12">
-                    <h2 class="add-to-our-story-text">
-                    If you have any questions, please email us at: ted.cleborne@gmail.com  
-                    </h2>
+                    <br>
+                    <div class="row">
+                        <div class="twelve column">
+                        <h2 class="add-to-our-story-text">
+                        If you have any questions, please email us at: ted.cleborne@gmail.com  
+                        </h2>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -103,5 +97,7 @@
         <footer id="footer">
             <span>Copyright © 2017 Fatty Productions</span>
         </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script type="text/javascript" src="js/my.js"></script>
     </body>
 </html>

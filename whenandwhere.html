@@ -2,38 +2,26 @@
 <html>
     <head>
         <title>Melissa and Ted</title>
-    </head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
         <meta charset="utf-8" />
-        <link href="http://s3.amazonaws.com/codecademy-content/courses/ltp2/css/bootstrap.min.css" rel="stylesheet">
-       
         <link rel="stylesheet" href="css/style_menu_header.css" type="text/css"/>
         <link rel="stylesheet" href="css/style_when_and_where.css" type="text/css"/>
-
+    </head>
+    
     <body>
-           
-            <ul class="topnav" id="myTopnav">
-                <li><a class="active" href="index.html">Melissa & Ted</a></li>
+    <header>
+        <a href="index.html" class="logo">Melissa & Ted</a>
+        <a class="hamburger-menu">Menu</a>
+        <nav class="main-menu hide">
+            <ul class="ul-main-menu">
                 <li><a href="ourstory.html">Our Story</a></li>
                 <li><a href="whenandwhere.html">When and Where</a></li>
                 <li><a href="weddingparty.html">Wedding Party</a></li>
                 <li><a href="registry.html">Registry</a></li>
-                <li><a href="moreinfo.html">More Info</a></li>
-                <li class="icon">
-                    <a href="javascript:void(0);" style="font-size:15px;" onclick="myFunction()">☰</a>
-                </li>
+                <li><a href="moreinfo.html">All Info</a></li>
             </ul>
-          
-            <script> 
-            function myFunction() {
-                var x = document.getElementById("myTopnav");
-                if (x.className === "topnav") {
-                    x.className += " responsive";
-                } else {
-                    x.className = "topnav";
-                }
-            }
-            </script>
-            
+      </nav> 
+    </header>        
         <div class="when-and-where">
             <h1 class="when-where-text">Ceremony and Reception</h1>
             <h2 class="datetime">
@@ -67,11 +55,11 @@
             <h2 class="group-rate">
                 A group rate is available at the following hotel.
                 <br>
-                Just mention our names.
+          
+                Just use the group code: TCW
             </h2>
+            <h3 class="hotel">DoubleTree by Hilton Hotel Tarrytown</h3>
             <p class="accomodations-address">
-                <em>DoubleTree by Hilton Hotel Tarrytown</em>
-                <br>
                 455 South Broadway
                 <br>
                 Tarrytown, NY 10591
@@ -81,9 +69,12 @@
                 <div class="sqs-block-content" >
                     <div class="sqs-block-button-container--center">
                         <a href="http://doubletree3.hilton.com/en/hotels/new-york/doubletree-by-hilton-hotel-tarrytown-TERHIDT/index.html" class="sqs-waw-block-button-element--small sqs-block-button-element" target="_blank">View</a>
+                        <a href="https://www.google.com/maps/dir/DoubleTree+by+Hilton+Hotel+Tarrytown,+South+Broadway,+Tarrytown,+NY/630+Bedford+Rd,+Tarrytown,+NY+10591/@41.0822185,-73.8794618,13z/data=!4m13!4m12!1m5!1m1!1s0x89c2eadce3ed1707:0x93a02f76eea5d04c!2m2!1d-73.8637097!2d41.060631!1m5!1m1!1s0x89c2bffa97fd8179:0x70cbda0b3c5a5aed!2m2!1d-73.8291137!2d41.103893" class="sqs-wawmap-block-button-element--small sqs-block-button-element" target="_blank">View Map</a>
                     </div>
                 </div>
             </div>
         </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script type="text/javascript" src="js/my.js"></script>
     </body>
 </html>
