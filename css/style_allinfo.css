@@ -1,0 +1,67 @@
+
+* {
+    box-sizing: border-box;
+}
+
+@-ms-viewport{
+    width: extend-to-zoom;
+    zoom: 1.0;
+}
+
+.content-inner{
+    padding: 5px 8%;
+    max-width: 960px;
+    height: 90vh;
+    margin: 0 auto;
+    position: relative;
+}
+
+h1.allinfo-header{
+    font-family: "Foundry Origin W01 Bk",Georgia, serif;
+    color: #37383b;
+    letter-spacing: 0.2em;
+    font-size:34px;
+    text-transform: uppercase;
+    font-style: normal;
+    margin: 0;
+    text-align: center;
+    padding-top: 10px;
+    font-weight: 500;
+    line-height: 1.1;
+    padding-bottom: 20px;
+}
+
+h2.contact-text{
+    margin: 0;
+    padding: 0;
+    padding: 0;
+    font-family: "ff-meta-serif-web-pro";
+    font-size: 16px;
+    text-align: center;
+    font-weight: 500;
+    color: #3A4049;
+    line-height: 1.68em;
+}
+
+
+h3 {
+    font-family: "Foundry Origin W01 Bk",Georgia, serif;
+    color: #37383b;
+    letter-spacing: 0.05em;
+    font-size:18px;
+    text-transform: uppercase;
+    font-style: normal;
+    margin: 0;
+    text-align: left;
+    font-weight: 500;
+    height: 50px;
+    line-height: 50px;
+
+}
+
+
+
+p {
+    margin-top: 0.5em;
+}
+

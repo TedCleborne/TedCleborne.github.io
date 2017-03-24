@@ -92,15 +92,14 @@ h2.bridal-party-text {
 
 .groomsmen{
     position: relative;
-    background: url(../img/greetingsfromdenver.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/greetingsfromdenver.jpg);
     width:100%;
     background-size: 100% 100%;
-    opacity: 1.0;
 }
 
 .bridesmaids{
     position: relative;
-    background: url(../img/greetingsfromaustin.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/greetingsfromaustin.jpg);
     width:100%;
     background-size: 100% 100%;
     opacity: 1.0;
