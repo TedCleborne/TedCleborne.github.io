@@ -69,3 +69,4 @@ p {
     margin-top: 0.5em;
 }
 
+@media only screen and (max-width:960px){.all_info{background:url(../img/anemone.jpg);}}

@@ -11,10 +11,9 @@
 
 
 .content-inner{
-    padding: 10px;
+    padding: 5px 8%;
     max-width: 960px;
     margin: 0 auto;
-    text-align: center;
 }
 
 .proposal {
@@ -110,6 +109,20 @@ h2.proposal-text{
     border: 0px solid white;
 }
 
-.our-story-table {
-    width: 100%;
+#bitmoji-picture {
+    margin-left: 0;
 }
+
+#blank-cell {
+    height: 160px;
+}
+
+#our-story-height {
+    height: 160px;
+    margin-left: 0;
+}
+
+@media only screen and (max-width:767px){#bitmoji-picture{display: none;}}
+@media only screen and (max-width:767px){#blank-cell{height:0px;}}
+@media only screen and (max-width:767px){#our-story-height{height: 80px;}}
+
