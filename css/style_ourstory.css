@@ -125,4 +125,6 @@ h2.proposal-text{
 @media only screen and (max-width:767px){#bitmoji-picture{display: none;}}
 @media only screen and (max-width:767px){#blank-cell{height:0px;}}
 @media only screen and (max-width:767px){#our-story-height{height: 80px;}}
+@media only screen and (max-width:960px){.our-story{background:linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),url(../img/manhattanmobile.jpg);background-size: 100% 100%;}}
+@media only screen and (max-width:960px){.proposal{background:linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),url(../img/lakewinnipesaukeemobile.jpg);background-size: 100% 100%;}}
 

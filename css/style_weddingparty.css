@@ -136,6 +136,6 @@ h2.bridal-party-text {
     border-radius: 50%;
 }
 
-@media only screen and (max-width:960px){.groomsmen{background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../img/coloradomobile.jpg);}}
-@media only screen and (max-width:960px){.bridesmaids{background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../img/austinmobile.png);}}
-@media only screen and (max-width:960px){.youngins{background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../img/ringbearsmobile.jpg);}}
+@media only screen and (max-width:960px){.groomsmen{background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../img/coloradomobile.jpg);background-size: 100% auto;}}
+@media only screen and (max-width:960px){.bridesmaids{background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../img/austinmobile1.jpeg);background-size: 100% auto;}}
+@media only screen and (max-width:960px){.youngins{background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../img/ringbearsmobile.jpg);background-size: 100% auto;}}

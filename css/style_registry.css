@@ -11,7 +11,7 @@
 .content-inner{
     padding: 5px 8%;
     max-width: 960px;
-    height: 90vh;
+    height: 40vh;
     margin: 0 auto;
     position: relative;
 }
@@ -50,15 +50,14 @@ h2.registry-text{
     opacity: 1.0;
 }
 
-
-.registry-table {
-    width: 100%;
-    position: absolute;
-    bottom:0;
+#registry-cell {
+    height: 160px;
+    margin-left: 0;
+    padding-left: 8%;
 }
 
-.registry-table-cell {
+@media only screen and (max-width:960px){#registry-cell{padding-left: 20%;}}
 
-    border: 0px solid white;
-    padding: 0;
-}
+
+
+
