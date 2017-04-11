@@ -58,7 +58,7 @@ h4 {
    
 }
 
-
+@media only screen and (max-width:640px){.container{width:100%;}}
 @media only screen and (max-width:640px){.content-inner{padding-top:125%;}}
 @media only screen and (max-width:640px){h3{visibility: hidden;}}
 @media only screen and (max-width:640px){span{display: none;}}
