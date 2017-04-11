@@ -8,6 +8,8 @@
     zoom: 1.0;
 }
 
+
+
 .content-inner{
     padding: 5px 8%;
     max-width: 960px;
@@ -15,6 +17,8 @@
     margin: 0 auto;
     position: relative;
 }
+
+
 
 h1.registry-header{
     font-family: "Foundry Origin W01 Bk",Georgia, serif;

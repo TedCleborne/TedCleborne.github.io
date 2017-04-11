@@ -1,0 +1,125 @@
+
+* {
+    box-sizing: border-box;
+}
+
+@-ms-viewport{
+    width: extend-to-zoom;
+    zoom: 1.0;
+}
+
+.main {
+    position: relative;
+    background: url(../img/melissaandted.jpeg);
+    width:100%;
+    height: 89vh;
+    background-size: 100% 100%;
+    opacity: 1.0;
+}
+
+.content-inner{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    width: 100%;
+    margin: 0px auto;
+    padding: 15% 5%;
+}
+
+.entry-title {
+    font-size: 9rem;
+    font-weight: 100;
+    line-height: 140px;
+    color: #111;
+    font-family: Lato,  sans-serif;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: baseline;
+    border-width: 0px;
+    text-rendering: optimizeLegibility;
+    word-wrap: break-word;
+  
+}
+
+
+
+h3 {
+    margin-top: 3%;
+    font-size: 2rem;
+    line-height: 40px;
+    font-weight: 300;
+    letter-spacing: 12px;
+    color: rgb(17, 17, 17);
+    font-family: Lato, Helvetica, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
+   
+}
+
+h4 {
+    margin-top: 1%;
+    font-size: 1.4rem;
+    line-height: 36px;
+    font-weight: 300;
+    letter-spacing: 12px;
+    color: rgb(17, 17, 17);
+    font-family: Lato, Helvetica, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
+   
+}
+
+.title-desc-image{
+    text-align: center;
+    height: 55vh;
+    background:url(../img/Announcement.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+}
+
+.content-inner-main{
+    padding: 0;
+    max-width: 840px;
+    margin: 0 auto;
+    height:90vh;
+}
+
+.announcement {
+position:relative; z-index:10; padding:8px; background:#fff; border-top:2px solid grey; border-bottom:2px solid black;
+
+}
+
+.announcement:before{content:""; display:block; position:absolute; z-index:-1; top:2px; left:2px; right:2px; 
+bottom:2px; border-bottom:2px solid grey}
+
+
+h1.announcement-text {
+    font-family: "Foundry Origin W01 Bk",Georgia, serif;
+    color: #37383b;
+    text-transform: uppercase;
+    font-style: normal;
+    margin: 0;
+    text-align: center;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    line-height: 0%;
+    position: relative;
+    font-size: 2.9vw;
+    letter-spacing: 1vw;
+  
+}
+
+.full-date-and-time {  
+    text-align: center;
+    margin-top: 1%;
+    height: 25vh;
+    background: url(../img/FullDateAndTime.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+    
+}
